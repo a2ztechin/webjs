@@ -44,13 +44,6 @@ img {
     z-index: 3;
 }
 
-.loader-inner {
-  vertical-align: top;
-  display: inline-block;
-  width: 100%;
-  background-color: #fff;
-  animation: loader-inner 0s infinite ease-in;
-}
 
 @keyframes loader {
   0% {
