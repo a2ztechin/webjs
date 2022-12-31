@@ -1,0 +1,98 @@
+
+.material-icons {
+  font-size: 28px;
+  color: #fff;
+}
+
+#vWrap {
+  font-family: arial, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 600px;
+  background: #484848;
+}
+
+#vVid {
+  width: 100%;
+}
+
+#vPlay {
+  padding: 10px;
+  margin: 0;
+  background: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+#vCron {
+  font-size: 14px;
+  color: #cbcbcb;
+  margin: 0 10px;
+}
+
+#vWrap input[type="range"] {
+  box-sizing: border-box;
+  appearance: none;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  padding: 0;
+  margin: 0;
+  background: 0;
+}
+#vWrap input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+}
+
+#vWrap input[type=range]::-webkit-slider-runnable-track {
+  background: #626262;
+  border-radius: 10px;
+}
+#vWrap input[type=range]::-moz-range-track {
+  background: #626262;
+  border-radius: 10px;
+}
+
+#vWrap input[type=range]::-webkit-slider-thumb {
+  width: 16px; height: 16px;
+  border-radius: 50%;
+  border: 0;
+  background: #fff;
+}
+#vWrap input[type=range]::-moz-range-thumb {
+  width: 16px; height: 16px;
+  border-radius: 50%;
+  border: 0;
+  background: #fff;
+}
+
+
+#vSeek {
+  width: 180px;
+}
+
+
+#vVolume {
+  width: 100px;
+}
+#vVolIco {
+  margin: 0 10px;
+}
+
+
+#vList {
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  color: #7e7e7e;
+  background: #323232;
+}
+.vRow {
+  cursor: pointer;
+  padding: 10px 0;
+}
+.vRow.now {
+  color: #fea;
+}
